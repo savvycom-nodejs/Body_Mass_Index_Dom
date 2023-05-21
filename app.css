@@ -1,0 +1,50 @@
+#body-mass{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
+#text-bmi{
+    text-align: center;
+}
+#height{
+    margin-bottom: 10px;
+}
+#weight{
+    margin-bottom: 10px;
+}
+#text-height, #text-weight,#text-gender{
+    margin: 0;
+}
+#input-height,#input-weight{
+    width: 100%;
+}
+#gender{
+    margin-bottom: 30px;
+}
+#gender #male{
+    margin-right: 20px;
+}
+#button-calculate{
+    margin: auto;
+    width: 90px;
+    margin-bottom: 30px;
+}
+#result{
+    background-color: #b2b2b2;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px
+}
+#result p{
+    color: #525050
+}
+#result span{
+    font-size: 30px;
+    font-weight: 700;
+}
+#resultNumber{
+    padding-right: 3px;
+    border-right: 3px solid black;
+}
