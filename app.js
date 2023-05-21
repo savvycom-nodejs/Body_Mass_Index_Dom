@@ -23,7 +23,7 @@ function buttonCalculate(){
         document.getElementById("resultText").innerHTML= "Thừa cân nhẹ"
     }if(resultNumber>27.8 && resultNumber<=31.1 && selectedValue==='male'){
         document.getElementById("resultText").innerHTML= "Trên lý tưởng"
-    }else if(resultNumber>31.1 && selectedValue==='female'){
+    }else if(resultNumber>31.1 && selectedValue==='male'){
         document.getElementById("resultText").innerHTML= "Béo phì"
     }
     document.getElementById("input-height").value=""
